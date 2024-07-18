@@ -1,0 +1,144 @@
+/* Add some basic styling to the navigation bar */
+body{
+    background-color: #bd7f7f;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+nav {
+    background-color: #2b2a2a77;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 5px red;
+
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: solid;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    }
+nav a:hover {
+    color: #f50c0c;
+    
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    /* Add a gradient color to the headline */
+    background: linear-gradient(to right, #ff0303, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-transform: capitalize;
+}
+p {
+    text-transform: capitalize;
+    color: #000000;
+}
+
+li {
+    list-style: inside;
+    text-transform: capitalize;
+}
+
+img {
+    max-height: 200px; /* adjust the height value as needed */
+    max-width: 300px; /* adjust the width value as needed */
+    box-shadow: 0 0 15px rgb(224, 0, 0);
+}
+.project_video{
+    
+        height: 50%; /* adjust the height value as needed */
+        width: 50%; /* adjust the width value as needed */
+        box-shadow: 0 0 5px red;
+      
+}
+
+h4{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+    align-items: center;
+}
+
+.physics{
+    background-color: #30303023;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+   box-shadow: 0 0 10px red;
+   padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries for responsive design */
+/* For small screens (e.g. mobile devices) */
+@media only screen and (max-width: 600px) {
+    nav {
+        padding: 5px;
+    }
+    nav li {
+        margin-right: 10px;
+    }
+    nav a {
+        font-size: 14px;
+    }
+}
+
+/* For medium screens (e.g. tablets) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    nav {
+        padding: 10px;
+    }
+    nav li {
+        margin-right: 15px;
+    }
+    nav a {
+        font-size: 16px;
+    }
+}
+
+/* For large screens (e.g. desktops) */
+@media only screen and (min-width: 901px) {
+    nav {
+        padding: 15px;
+    }
+    nav li {
+        margin-right: 20px;
+    }
+    nav a {
+        font-size: 18px;
+    }
+}
