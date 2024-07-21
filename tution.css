@@ -3,9 +3,9 @@ body{
     background-color: #bd7f7f;
     font-family: 'Open Sans', sans-serif;
    font-family: 'Times New Roman', Times, serif;
-   background-image: url("https://t3.ftcdn.net/jpg/01/96/96/66/360_F_196966690_7iqTNZZ08zx1am1mytyshlKn0U0WuVVs.jpg");
+   /* background-image: url("https://t3.ftcdn.net/jpg/01/96/96/66/360_F_196966690_7iqTNZZ08zx1am1mytyshlKn0U0WuVVs.jpg");
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
    color:whitesmoke;
 }
 .header {
@@ -40,6 +40,7 @@ a:hover{
 a{
     text-decoration: none;
     color: rgb(255, 0, 0);
+    padding: 1px;
 }
 .test{
     font-family: 'Times New Roman', Times, serif;
@@ -89,7 +90,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: #000000;
+    color: #fffefe;
     border-radius: 10px;
     box-shadow: 0 0 5px red;
 
@@ -106,7 +107,7 @@ nav li {
 }
 nav a {
     text-decoration: solid;
-    color: #000000;
+    color: #fffbfb;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -128,7 +129,8 @@ nav a:hover {
 }
 p {
     text-transform: capitalize;
-    color: #000000;
+    color: #ffffff;
+    background-color: #03000057;
 }
 
 li {
@@ -159,7 +161,7 @@ table{
 }
 
 .physics{
-    background-color: #30303023;
+    background-color: #0000001c;
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -167,7 +169,10 @@ table{
    padding: 1%;
 }
 
-
+.project{
+    background-color: #30303023;
+    color: #ffffff;
+}
 
 
 
