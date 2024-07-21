@@ -26,7 +26,7 @@ body{
     font-size: 24px;
    
 }
-a:hover{
+.link:hover{
     font-family: 'Times New Roman', Times, serif;
     border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
     border-image-slice: 1;
