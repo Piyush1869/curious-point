@@ -2,9 +2,86 @@
 body{
     background-color: #bd7f7f;
     font-family: 'Open Sans', sans-serif;
+   font-family: 'Times New Roman', Times, serif;
+   background-image: url("https://t3.ftcdn.net/jpg/01/96/96/66/360_F_196966690_7iqTNZZ08zx1am1mytyshlKn0U0WuVVs.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   color:whitesmoke;
+}
+.header {
+    margin-top: 0%;
+    background-color: #333333b6;
+    color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+     
+    border-radius: 10px;
+    box-shadow: 0 0 10px white ;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid transparent;
+
+    border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
+    border-image-slice: 1;
+    animation: shine 2s infinite;
+    font-size: 24px;
+   
+}
+a:hover{
+    font-family: 'Times New Roman', Times, serif;
+    border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
+    border-image-slice: 1;
+    animation: shine 2s infinite;
+    border: 3px solid transparent;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #11111186;
+    color: rgb(81, 255, 0);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.test{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
+#Logout:hover{
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
+ 
+  
+
+}
+
+
+.border{
+    font-family: 'Times New Roman', Times, serif;
+    border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
+    border-image-slice: 1;
+    animation: shine 2s infinite;
+    border: 3px solid transparent;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #11111186;
+    color: whitesmoke;
    
 }
 
+@keyframes shine {
+    0% {
+        border-image: linear-gradient(to right, #ff00c8, #ff0000, #0051ff) 1;
+    }
+    33% {
+        border-image: linear-gradient(to right, #ff0000, #6200ff, #00ffff) 1;
+    }
+    66% {
+        border-image: linear-gradient(to right, #a6ff00, #ff00c8, #ff0000) 1;
+    }
+    100% {
+        border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
+    }
+}
 nav {
     background-color: #2b2a2a77;
     padding: 10px;
