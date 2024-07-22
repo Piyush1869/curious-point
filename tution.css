@@ -46,6 +46,7 @@ a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     color:rgb(255, 255, 255);
+    padding: 20px;
 }
 #Logout:hover{
   background-color: #ffffff;
@@ -83,6 +84,14 @@ a{
         border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
     }
 }
+video {
+    width: 100vh; /* adjust the width value as needed */
+    height: 100vh; /* adjust the height value as needed */
+    margin: 30px auto; /* add some margin for better display */
+}
+
+
+
 nav {
     background-color: #2b2a2a77;
     padding: 10px;
@@ -186,41 +195,100 @@ table{
 
 
 /* Media queries for responsive design */
+/* Add media queries for responsive design */
+
 /* For small screens (e.g. mobile devices) */
 @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    .header {
+      padding: 10px;
+      font-size: 18px;
+    }
     nav {
-        padding: 5px;
+      padding: 5px;
     }
     nav li {
-        margin-right: 10px;
+      margin-right: 10px;
     }
     nav a {
-        font-size: 14px;
+      font-size: 12px;
     }
-}
-
-/* For medium screens (e.g. tablets) */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .content {
+      margin: 20px auto;
+      padding: 10px;
+    }
+    img {
+      max-height: 150px;
+      max-width: 200px;
+    }
+    .project_video {
+      height: 30%;
+      width: 30%;
+    }
+  }
+  
+  /* For medium screens (e.g. tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+      font-size: 16px;
+    }
+    .header {
+      padding: 15px;
+      font-size: 20px;
+    }
     nav {
-        padding: 10px;
+      padding: 10px;
     }
     nav li {
-        margin-right: 15px;
+      margin-right: 15px;
     }
     nav a {
-        font-size: 16px;
+      font-size: 14px;
     }
-}
-
-/* For large screens (e.g. desktops) */
-@media only screen and (min-width: 901px) {
+    .content {
+      margin: 30px auto;
+      padding: 15px;
+    }
+    img {
+      max-height: 200px;
+      max-width: 250px;
+    }
+    .project_video {
+      height: 40%;
+      width: 40%;
+    }
+  }
+  
+  /* For large screens (e.g. desktops) */
+  @media only screen and (min-width: 901px) {
+    body {
+      font-size: 18px;
+    }
+    .header {
+      padding: 20px;
+      font-size: 24px;
+    }
     nav {
-        padding: 15px;
+      padding: 15px;
     }
     nav li {
-        margin-right: 20px;
+      margin-right: 20px;
     }
     nav a {
-        font-size: 18px;
+      font-size: 16px;
     }
-}
+    .content {
+      margin: 40px auto;
+      padding: 20px;
+    }
+    img {
+      max-height: 250px;
+      max-width: 300px;
+    }
+    .project_video {
+      height: 80%;
+      width: 80%;
+    }
+  }
