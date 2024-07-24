@@ -39,7 +39,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 17, 255);
     padding: 1px;
 }
 .test{
@@ -200,7 +200,22 @@ table{
   color: #ff0000;
   font-size: 14px;
 }
+.link_pdf{
+  font-family: 'Times New Roman', Times, serif;
+  
+  color: rgb(0, 60, 255);
+}
+.link_pdf:hover{
+  color: #ff0000;
+  border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
+  /* border-image-slice: 1;
+  animation: shine 2s infinite;
+  border: 3px solid transparent;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #11111186; */
 
+}
 
 
 
