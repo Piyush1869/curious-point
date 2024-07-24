@@ -193,7 +193,7 @@ table{
   
 }
 .loading{
-  display: block;
+  display: none;
 }
 
 
