@@ -192,7 +192,9 @@ table{
   padding: 1%;
   
 }
-
+.loading{
+  display: block;
+}
 
 
 
