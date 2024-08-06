@@ -221,6 +221,27 @@ table{
   display: none;
 }
 
+.login{
+  
+  background-color: #c0bbbb;
+  color: #f1f1f1;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+.login:hover{
+  font-family: 'Times New Roman', Times, serif;
+  border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
+  border-image-slice: 1;
+  animation: shine 2s infinite;
+  border: 3px solid transparent;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #11111186;
+  color: rgb(81, 255, 0);
+}
+
 /* form{
   background-color: #000000ab;
   color: #ffffff;
@@ -328,5 +349,13 @@ table{
     .project_video {
       height: 80%;
       width: 80%;
+    }
+  }@media only screen and (max-width: 768px) {
+    .project, .chapter_pdf_class9 {
+      padding: 2%;
+      font-size: 14px;
+    }
+    .link_pdf {
+      font-size: 12px;
     }
   }
