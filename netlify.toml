@@ -1,4 +1,4 @@
-[[redirects]]
-  from = "/home"
+
+  [[redirects]]
+  from = "/"
   to = "./login.html"
-  status = 301
