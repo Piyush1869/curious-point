@@ -1,12 +1,12 @@
 /* Add some basic styling to the navigation bar */
 body{
-    background-color: #bd7f7f;
+    /* background-color: #bd7f7f; */
     font-family: 'Open Sans', sans-serif;
    font-family: 'Times New Roman', Times, serif;
-   /* background-image: url("https://t3.ftcdn.net/jpg/01/96/96/66/360_F_196966690_7iqTNZZ08zx1am1mytyshlKn0U0WuVVs.jpg");
+   background-image: url("https://img.freepik.com/free-vector/bright-modern-blurred-background_1034-801.jpg");
    background-repeat: no-repeat;
-   background-size: cover; */
-   color:whitesmoke;
+   background-size: cover;
+   color:rgb(0, 0, 0);
 }
 .header {
     margin-top: 0%;
@@ -139,7 +139,7 @@ nav a:hover {
 p {
     text-transform: capitalize;
     color: #ffffff;
-    background-color: #03000057;
+    background-color: #03000093;
 }
 
 li {
@@ -170,7 +170,7 @@ table{
 }
 
 .physics{
-    background-color: #0000001c;
+    background-color: #0000007a;
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -179,12 +179,12 @@ table{
 }
 
 .project{
-    background-color: #30303023;
+    background-color: #303030ab;
     color: #ffffff;
 }
 
 .chapter_pdf_class9{
-  background-color: #0000001c;
+  background-color: #00000080;
   color: #ffffff;
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
@@ -221,7 +221,7 @@ table{
   display: none;
 }
 
-form{
+/* form{
   background-color: #000000ab;
   color: #ffffff;
   font-family: 'Times New Roman', Times, serif;
@@ -229,7 +229,7 @@ form{
   padding: 1%;
   box-shadow: 0 0 10px rgb(255, 255, 255);
   align-items: center;
-}
+} */
 
 
 /* Media queries for responsive design */
