@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "*/"
+  from = "/home"
   to = "./login.html"
   status = 301
