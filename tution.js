@@ -199,7 +199,30 @@ function renderTest9(){
   `
 }
 
-
+ function renderphysics(){
+  document.getElementById("content").innerHTML =`<div id="physic"></div>
+        <!-- <div class="heading">Curious Point - Biology</div> -->
+        <h1>Biology</h1>
+        <p>Welcome to the biology page!</p>
+        <p class="chapter_pdf_class9">
+            class 9 chapter pdf link <br>
+            </p>
+            <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+            <p class="chapter_pdf_class10"><ul>
+                <li class="link"><a class="link_pdf" href="./class10 jac/LIGHT-HUMAN EYE AND THE COLOURFUL WORLD.pdf"  >light-human-eye </a></li>
+                <!-- <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a> -->
+              </ul></p>
+            <div class="loading" id="loading">Loading...</div>
+            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+      
+            <div class="loading" id="loading">Loading...</div>
+            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+           
+        
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
+`
+ }
 
 
 
