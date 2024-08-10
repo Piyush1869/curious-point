@@ -13,14 +13,14 @@ class Tution {
       // You can access the username and className here
       let username = userData.username;
     let className = userData.className;
-    let subject = userData.subject;
+    let board = userData.subject;
 
     // Log all the data
       console.log(username);
       console.log(className);
       console.log(typeof(className));
-      console.log(subject);
-      console.log(typeof(subject));
+      console.log(board);
+      console.log(typeof(board));
 
       document.getElementById("root").innerHTML = `
         <center><div id="form_cont">  <h1> login sucessfull ${name(username)} loding.............</h1></div></center>
@@ -52,6 +52,25 @@ class Tution {
         <li><a href="#" onclick="renderPhysic9()">Physic</a></li>
         <li><a href="#" onclick="renderChemistry9()">Chemistry</a></li>
         <li><a href="#" onclick="renderTest9()">test</a></li>
+        <li><a href="./home.html">about me   </a></li>
+        </ul>
+      </nav>
+       <div id="content">
+       <h1> ${name(username)} go and check all subject  data </h1>
+       </div>
+    `;
+    document.body.appendChild(navBar);
+  }
+  else if (className === 10) {
+    const navBar = document.getElementById("root");
+    navBar.innerHTML = `
+    <nav>  
+    <ul>
+        <li><a href="#" onclick="renderbio_10jac()">Bio</a></li>
+        <li><a href="#" onclick="rendermaths_10jac()">maths</a></li>
+        <li><a href="#" onclick="renderphysic_10jac()">Physic</a></li>
+        <li><a href="#" onclick="renderchemistory_10jac()">Chemistry</a></li>
+        <li><a href="#" onclick="renderTest10_jac()">test</a></li>
         <li><a href="./home.html">about me   </a></li>
         </ul>
       </nav>
@@ -141,8 +160,10 @@ function name(usear){
 
     return "welcome Avinashi ";
   }
-  else if (usear === ansh){
+  else if (usear ===" ansh"){
     return "welcome Ansh";
+  }else if (usear=== "shruti"){
+    return "welcome Shruti";
   }
 }
 
@@ -198,14 +219,14 @@ function renderTest9(){
 
   `
 }
-
- function renderphysics(){
+// 10 jac 
+ function renderphysic_10jac(){
   document.getElementById("content").innerHTML =`<div id="physic"></div>
         <!-- <div class="heading">Curious Point - Biology</div> -->
-        <h1>Biology</h1>
+        <h1>physic</h1>
         <p>Welcome to the biology page!</p>
         <p class="chapter_pdf_class9">
-            class 9 chapter pdf link <br>
+            class 10 jac  chapter pdf link <br>
             </p>
             <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
             <p class="chapter_pdf_class10"><ul>
@@ -223,10 +244,97 @@ function renderTest9(){
         <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
 `
  }
-
-
-
+function renderbio_10jac(){
+  document.getElementById("content").innerHTML =`<h1>biology</h1>
+    <p>Welcome to the chemistory page!</p>
+    <p class="chapter_pdf_class9">
+        class 10 jac  chapter pdf link <br>
+        </p>
+        <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+        <p class="chapter_pdf_class10"><ul>
+            <!-- <li class="link"><a class="link_pdf" href="./class10 jac/LIGHT-HUMAN EYE AND THE COLOURFUL WORLD.pdf"  >light-human-eye </a></li> -->
+            <!-- <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a> -->
+          </ul></p>
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
   
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+       
+    
+    <div class="loading" id="loading">Loading...</div>
+    <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
+  `
+}
+
+function renderchemistory_10jac(){
+  document.getElementById("content").innerHTML =`<h1>chemistory</h1>
+    <p>Welcome to the chemistory page!</p>
+    <p class="chapter_pdf_class9">
+        class 10 jac  chapter pdf link <br>
+        </p>
+        <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+        <p class="chapter_pdf_class10"><ul>
+            <!-- <li class="link"><a class="link_pdf" href="./class10 jac/LIGHT-HUMAN EYE AND THE COLOURFUL WORLD.pdf"  >light-human-eye </a></li> -->
+            <!-- <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a> -->
+          </ul></p>
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+  
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+       
+    
+    <div class="loading" id="loading">Loading...</div>
+    <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
+  
+  
+  
+`
+}
+ function rendermaths_10jac(){
+  document.getElementById("content").innerHTML =`<!-- <div class="heading">Curious Point - Biology</div> -->
+        <h1>maths</h1>
+        <p>Welcome to the biology page!</p>
+        <p class="chapter_pdf_class9">
+            class 10 jac  chapter pdf link <br>
+            </p>
+            <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+            <p class="chapter_pdf_class10"><ul>
+               <li class="link"><a class="link_pdf" href="./class10 jac/maths/triangle.pdf"  >triangle </a></li>
+                <!-- <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a> -->
+              </ul></p>
+            <div class="loading" id="loading">Loading...</div>
+            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+      
+            <div class="loading" id="loading">Loading...</div>
+            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+           
+        
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
+`
+ }
+  
+ function renderTest10_jac(){
+  document.getElementById("content").innerHTML =`
+  <br><br>
+  <div class="header" >WELCOME TO TEST PAGE </div><br><br>
+   <p class="test">
+    ACTIVE TEST LINK HERE :<br>
+    :<br><br>  
+    <a class="link" onclick="form_unhide()" >click me </a>
+    
+  </p>
+  <div class="test_code" id="test_code">
+   <center><form id="myForm" action="" method="post" onsubmit="testcode(); return false;">
+    <lable for="code">enter your test code </lable>
+    <input type="text" name="code" id="code" placeholder="enter your code">
+    <input type="submit" value="Submit">
+   </form></center> 
+  </div>`
+  
+ }
   // Create an instance of the Tution class
   let tution = new Tution();
   

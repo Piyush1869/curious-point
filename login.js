@@ -1,6 +1,5 @@
 // login.js
-   document.getElementById("root").innerHTML=`<center>
-      <div id="form_cont">
+   document.getElementById("root").innerHTML=`<center>      <div id="form_cont">
        <h2> login by usear id given by your teacher</h2> <br><br>
       <form id="myForm" action="" method="post" onsubmit="login(); return false;">
         <input id="usearname" type="text" value="usear_name" onfocus="if(this.value === 'usear_name'){this.value = '';}
@@ -10,12 +9,6 @@
         <input type="submit" id="submit" value="submit">
       </form>
       <div id="login_status"></div></div></center>`
-
-
-
-
-
-
 
 
 
