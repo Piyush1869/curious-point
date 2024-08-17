@@ -20,10 +20,10 @@ function login() {
     // You can now use the username to authenticate the user
     // For example, you can check if the username exists in a database or an object
     let users = {
-      "avi09": { class: 9, subject: "PCB" },
-      "ansh": { class: 10, subject: "icse" },
-      "avinashi": { class: "English", subject: "English" },
-      "shruti":{class : 10, subject : "cbse" },
+      "avi09": { class: 9, subject: 1 },
+      "ansh": { class: 10, subject: 2 },
+      
+      "shruti":{class : 10, subject : 3 },
     };
   
     if (usearname in users) {

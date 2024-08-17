@@ -61,7 +61,7 @@ class Tution {
     `;
     document.body.appendChild(navBar);
   }
-  else if (className === 10) {
+  else if (className === 10 && board === 3) {
     const navBar = document.getElementById("root");
     navBar.innerHTML = `
     <nav>  
@@ -80,7 +80,25 @@ class Tution {
     `;
     document.body.appendChild(navBar);
   }
-}, 3000);
+  else if (className === 10 && board ===2 ) {
+    const navBar = document.getElementById("root");
+    navBar.innerHTML = `
+    <nav>
+    <ul>
+    <li><a href="#" onclick="renderbio_10icse()">Bio</a></li
+    <li><a href="#" onclick="rendermaths_10icse()">maths</a>
+    <li><a href="#" onclick="renderphysic_10icse()">Physic</a>
+    <li><a href="#" onclick="renderchemistory_10icse()">Chemistry</a>
+    <li><a href="#" onclick="renderTest10_icse()">test</a>
+    <li><a href="./home.html">about me   </a></li>
+    </ul>
+    </nav>
+    <div id="content">
+    <h1> ${name(username)} go and check all subject  data </h1>
+    `
+    }
+  
+  }, 3000);
 
     
     }
@@ -160,7 +178,7 @@ function name(usear){
 
     return "welcome Avinashi ";
   }
-  else if (usear ===" ansh"){
+  else if (usear ==="ansh"){
     return "welcome Ansh";
   }else if (usear=== "shruti"){
     return "welcome Shruti";
@@ -320,6 +338,124 @@ function renderchemistory_10jac(){
   document.getElementById("content").innerHTML =`
   <br><br>
   <div class="header" >WELCOME TO TEST PAGE </div><br><br>
+   <p class="test">
+    ACTIVE TEST LINK HERE :<br>
+    :<br><br>  
+    <a class="link" onclick="form_unhide()" >click me </a>
+    
+  </p>
+  <div class="test_code" id="test_code">
+   <center><form id="myForm" action="" method="post" onsubmit="testcode(); return false;">
+    <lable for="code">enter your test code </lable>
+    <input type="text" name="code" id="code" placeholder="enter your code">
+    <input type="submit" value="Submit">
+   </form></center> 
+  </div>`
+  
+ }
+
+
+ // 10 icse
+ function renderphysic_10icse(){
+  document.getElementById("content").innerHTML =`<div id="physic"></div>
+        <!-- <div class="heading">Curious Point - Biology</div> -->
+        <h1>physic</h1>
+        <p>Welcome to the biology page!</p>
+        <p class="chapter_pdf_class9">
+            class 10 jac  chapter pdf link <br>
+            </p>
+            <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+            <!-- <p class="chapter_pdf_class10"><ul>
+                <li class="link"><a class="link_pdf" href="./class10 jac/LIGHT-HUMAN EYE AND THE COLOURFUL WORLD.pdf"  >light-human-eye </a></li>
+                <!-- <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a> -->
+              </ul></p>-->
+            <div class="loading" id="loading">Loading...</div>
+            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+      
+            <div class="loading" id="loading">Loading...</div>
+            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+           
+        
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
+`
+ }
+function renderbio_10icse(){
+  document.getElementById("content").innerHTML =`<h1>biology</h1>
+    <p>Welcome to the chemistory page!</p>
+    <p class="chapter_pdf_class9">
+        class 10 jac  chapter pdf link <br>
+        </p>
+        <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+        <p class="chapter_pdf_class10"><ul>
+            <!-- <li class="link"><a class="link_pdf" href="./class10 jac/LIGHT-HUMAN EYE AND THE COLOURFUL WORLD.pdf"  >light-human-eye </a></li> -->
+            <!-- <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a> -->
+          </ul></p>
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+  
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+       
+    
+    <div class="loading" id="loading">Loading...</div>
+    <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
+  `
+}
+
+function renderchemistory_10icse(){
+  document.getElementById("content").innerHTML =`<h1>chemistory</h1>
+    <p>Welcome to the chemistory page!</p>
+    <p class="chapter_pdf_class9">
+        class 10 jac  chapter pdf link <br>
+        </p>
+        <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+        <!-- <p class="chapter_pdf_class10"><ul>
+            <!-- <li class="link"><a class="link_pdf" href="./class10 jac/LIGHT-HUMAN EYE AND THE COLOURFUL WORLD.pdf"  >light-human-eye </a></li> -->
+            <!-- <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a> -->
+          </ul></p>-->
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+  
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+       
+    
+    <div class="loading" id="loading">Loading...</div>
+    <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
+  
+  
+  
+`
+}
+ function rendermaths_10icse(){
+  document.getElementById("content").innerHTML =`<!-- <div class="heading">Curious Point - Biology</div> -->
+        <h1>maths</h1>
+        <p>Welcome to the biology page!</p>
+        <p class="chapter_pdf_class9">
+            class 10 jac  chapter pdf link <br>
+            </p>
+            <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+             <!--<p class="chapter_pdf_class10"><ul>
+               <li class="link"><a class="link_pdf" href="./class10 jac/maths/triangle.pdf"  >triangle </a></li>
+                <!-- <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a> -->
+              </ul></p>-->
+            <div class="loading" id="loading">Loading...</div>
+            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+      
+            <div class="loading" id="loading">Loading...</div>
+            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
+           
+        
+        <div class="loading" id="loading">Loading...</div>
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
+`
+ }
+  
+ function renderTest10_icse(){
+  document.getElementById("content").innerHTML =`
+  <br><br>
+  <div class="header" >WELCOME TO TEST PAGE of class 10 icse </div><br><br>
    <p class="test">
     ACTIVE TEST LINK HERE :<br>
     :<br><br>  
