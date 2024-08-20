@@ -458,7 +458,7 @@ function renderchemistory_10icse(){
   <div class="header" >WELCOME TO TEST PAGE of class 10 icse </div><br><br>
    <p class="test">
     ACTIVE TEST LINK HERE :<br>
-    :<br><br>  
+    :ELECTRIC CIRCUIT AND OHMS LAW AND ELECTRIC ENERGY AND POWER TEST <br><br>  
     <a class="link" onclick="form_unhide()" >click me </a>
     
   </p>
