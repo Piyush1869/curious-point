@@ -120,7 +120,7 @@ function renderimportant9(){
 function renderPhysicIMP_9(){
   document.getElementById("important").innerHTML=`
   <ul>
-  <li> <a href="./important question for class 10 icse/ICSE-Class-9-Biology-important-questions.pdf">chapter one </a></li>
+ 
 
   </ul>
   `
@@ -238,7 +238,7 @@ function renderTest9(){
   <br><br>
   <div class="header" >WELCOME TO TEST PAGE </div><br><br>
    <p class="test">
-    ACTIVE TEST LINK HERE :<br>
+    ACTIVE TEST LINK HERE :bio chaper 1 cell<br>
     chemistory test chapter name {chemical change and reaction ; water } :<br><br>  
     <a class="link" onclick="form_unhide()" >click me </a>
     
