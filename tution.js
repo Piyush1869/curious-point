@@ -52,6 +52,7 @@ class Tution {
         <li><a href="#" onclick="renderPhysic9()">Physic</a></li>
         <li><a href="#" onclick="renderChemistry9()">Chemistry</a></li>
         <li><a href="#" onclick="renderTest9()">test</a></li>
+        <li><a href="#" onclick="renderimportant9()">important point </a></li>
         <li><a href="./home.html">about me   </a></li>
         </ul>
       </nav>
@@ -104,6 +105,27 @@ class Tution {
     }
 
 }
+
+
+function renderimportant9(){
+  document.getElementById("content").innerHTML=`<nav>
+  <ul>
+  <li><a onclick="renderPhysicIMP_9()">physic</a></li>
+  <li>chemistory</li>
+  <li>bio</li></ul>
+  </nav>
+  <div id="important"></div>`
+}
+
+function renderPhysicIMP_9(){
+  document.getElementById("important").innerHTML=`
+  <ul>
+  <li> <a href="./important question for class 10 icse/ICSE-Class-9-Biology-important-questions.pdf">chapter one </a></li>
+
+  </ul>
+  `
+}
+
 
 
 
