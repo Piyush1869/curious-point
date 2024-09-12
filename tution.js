@@ -184,6 +184,9 @@ function renderBio9() {
         <p class="chapter_pdf_class10"><ul>
             <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/polination and fertilization.pdf"  >polination and fertilization pdf </a></li>
             <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a>
+            <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/class-9-tissues-ppt.pdf"  > tissues</a>
+          <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/dugestive system.pdf"  > digestive system </a>
+          <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/respration system .pdf"  > respration  </a>
           </ul></p>
         <div class="loading" id="loading">Loading...</div>
         <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
