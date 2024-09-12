@@ -183,10 +183,14 @@ function renderBio9() {
         <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
         <p class="chapter_pdf_class10"><ul>
             <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/polination and fertilization.pdf"  >polination and fertilization pdf </a></li>
-            <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a>
-            <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/class-9-tissues-ppt.pdf"  > tissues</a>
-          <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/dugestive system.pdf"  > digestive system </a>
-          <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/respration system .pdf"  > respration  </a>
+            <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a></li>
+            <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/class-9-tissues-ppt.pdf"  > tissues</a></li>
+          <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/dugestive system.pdf"  > digestive system </a></li>
+          <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/respration system .pdf"  > respration in plant   </a></li>
+           <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/5 classes of kingdoms.pdf"  >Five Kingdom Classification </a></li>
+       <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/Five Kingdom of classification part 2 .pdf"  > Five Kingdom of classification part 2   </a></li>
+       <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/seed .pdf"  > seed   </a></li>
+      <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/flower.pdf"  > flower   </a></li>
           </ul></p>
         <div class="loading" id="loading">Loading...</div>
         <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
