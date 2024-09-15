@@ -261,7 +261,8 @@ function renderTest9(){
   
   <br><br>
     <p><H1>TEST RESULT </H1>
-     after verification you can see your result here 
+     <b>cell:</b>58/100<br>
+     <b>nutrition:</b> 87/100<br>
     </p>
 
   `
