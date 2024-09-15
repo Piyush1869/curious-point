@@ -261,8 +261,27 @@ function renderTest9(){
   
   <br><br>
     <p><H1>TEST RESULT </H1>
-     <b>cell:</b>58/100<br>
-     <b>nutrition:</b> 87/100<br>
+     <center>
+<table>
+  <th></th>
+ <th>Test result </th><th></th>
+  <tr>
+    <td>Chapter</td>
+    <td>Marks obtain</td>
+    <td>Full marks</td>
+  </tr>
+  <tr>
+    <td>cell</td>
+    <td>58</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>nutrition</td>
+    <td>87</td>
+    <td>100</td>
+  </tr>
+</table>
+</center>
     </p>
 
   `

@@ -69,20 +69,25 @@ a{
     color: whitesmoke;
    
 }
+table td ,th {
+  border: 2px solid #000000;
+ padding: 5px;
+}
+
 
 @keyframes shine {
-    0% {
-        border-image: linear-gradient(to right, #ff00c8, #ff0000, #0051ff) 1;
-    }
-    33% {
-        border-image: linear-gradient(to right, #ff0000, #6200ff, #00ffff) 1;
-    }
-    66% {
-        border-image: linear-gradient(to right, #a6ff00, #ff00c8, #ff0000) 1;
-    }
-    100% {
-        border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
-    }
+  0% {
+      border-image: linear-gradient(to right, #ff00c8, #ff0000, #0051ff) 1;
+  }
+  33% {
+      border-image: linear-gradient(to right, #ff0000, #6200ff, #00ffff) 1;
+  }
+  66% {
+      border-image: linear-gradient(to right, #a6ff00, #ff00c8, #ff0000) 1;
+  }
+  100% {
+      border-image: linear-gradient(to right, #ff00c8, #ff0000, #6200ff) 1;
+  }
 }
 video {
     width: 100vh; /* adjust the width value as needed */
