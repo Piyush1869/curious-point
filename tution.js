@@ -484,11 +484,13 @@ function renderchemistory_10icse(){
         <p class="chapter_pdf_class9">
             class 10 jac  chapter pdf link <br>
             </p>
-            <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
-             <!--<p class="chapter_pdf_class10"><ul>
-               <li class="link"><a class="link_pdf" href="./class10 jac/maths/triangle.pdf"  >triangle </a></li>
-                <!-- <li class="link"><a class="link_pdf" href="./ALL_STUDY_MATERIAL/cell the fundamental unit of life.pdf"  > cell</a> -->
-              </ul></p>-->
+             <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+                <p class="chapter_pdf_class10"><ul>
+               <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1HoQzwqXtmU_-9NbRBs11koqrgynn8eL6/view?usp=drive_link"  >Reflection </a></li>
+               <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1Hf3fcVwSt-3-fZu-9lZFgcwKr339Rkvb/view?usp=drive_link"  > section and midpoint theoram </a> 
+               <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1HJCiIrTzxDfDDwlsO4W7XzCxvZXVY-HA/view?usp=drive_link"  > arthmatic progression (AP)</a> 
+               <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1H_HvzehS5QugUPfley9vGBNoTA_Js3ZY/view?usp=drive_link"  > Matrix </a> 
+              </ul></p>
             <div class="loading" id="loading">Loading...</div>
             <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
       
