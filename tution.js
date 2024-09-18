@@ -91,7 +91,7 @@ class Tution {
     <li><a href="#" onclick="renderphysic_10icse()">Physic</a>
     <li><a href="#" onclick="renderchemistory_10icse()">Chemistry</a>
     <li><a href="#" onclick="render_imp10_icse()">Important Question</a>
-    <li><a href="#" onclick="render_imp10_icse()">test</a>
+    <li><a href="#" onclick="renderTest10_icse()">test</a>
     <li><a href="./home.html">about me   </a></li>
     </ul>
     </nav>
@@ -519,25 +519,24 @@ function renderchemistory_10icse(){
  }
  function render_imp10_icse(){
   document.getElementById("content").innerHTML =`
-    <nav>  
-    <ul>
-        <li><a href="#" onclick="renderBioImp9()">Bio</a></li>
-        <li><a href="#" onclick="renderPhysicImp9()">Physic</a></li>
-        <li><a href="#" onclick="renderChemistryImp9()">Chemistry</a></li>
-        <li><a href="#" onclick="renderMathsImp9()">test</a></li>
-        <li><a href="#" onclick="renderimportantImp9()">important point </a></li>
-        <li><a href="./home.html">about me   </a></li>
-        </ul>
-      </nav>
-       <div id="content_Imp">
-       <h1> ${name(username)} go and check all subject important  point </h1>
-
-       </div>
+  <br><br>
+  <div class="header" > important question </div><br><br>
+ <nav>  
+        <ul>
+            <li><a href="#" onclick="renderBioImp10()">Bio</a></li>
+            <li><a href="#" onclick="renderPhysicImp10()">Physic</a></li>
+            <li><a href="#" onclick="renderChemistryImp10()">Chemistry</a></li>
+            <li><a href="#" onclick="rerenderMathsImp10()">maths </a></li>
+           
+            </ul>
+          </nav>
+           <div id="content_Imp"></div>
+  </div>
   `
  }
- function rerenderMathsImp9(){
+ function rerenderMathsImp10(){
   document.getElementById("content_Imp").innerHTML =`
-    <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+   
     <p class="chapter_pdf_class10"><ul>
    <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1I8aaRhARG0Tf2cx9gyaXHH6FQsQ6PnzS/view?usp=drive_link"  > Matrix  </a></li>
  <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1I9I_U6sXRm4iTsWZG9f2LybwrRGD5nNz/view?usp=drive_link"  > Reflection </a> 
@@ -548,23 +547,22 @@ function renderchemistory_10icse(){
   `
  }
 
- function rerenderPhysicImp9(){
+ function rerenderPhysicImp10(){
   document.getElementById("content_Imp").innerHTML =` <span class="star"><u>*click on chapter name text to open pdf if pdf</u>  </span>
   
   `
 
  }
- function rerenderChemistryImp9(){
+ function rerenderChemistryImp10(){
   document.getElementById("content_Imp").innerHTML =` <span class="star"><u>*click on chater name to open pdf </u ></span>
 
   `
  }
- function rerenderBioImp9(){
+ function rerenderBioImp10(){
   document.getElementById("content_Imp").innerHTML =`
-  <span class="star"><u>*click on chapter name text to open pdf if pdf </u></span>
+  <span class="star"><u>*click on chapter name text to open pdf if pdf </u></span
   `
  }
-
   // Create an instance of the Tution class
   let tution = new Tution();
   
