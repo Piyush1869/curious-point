@@ -52,7 +52,7 @@ class Tution {
         <li><a href="#" onclick="renderPhysic9()">Physic</a></li>
         <li><a href="#" onclick="renderChemistry9()">Chemistry</a></li>
         <li><a href="#" onclick="renderTest9()">test</a></li>
-        <li><a href="#" onclick="render_imp10_icse()">important point </a></li>
+        <li><a href="#" onclick="renderimportant9()">important point </a></li>
         <li><a href="./home.html">about me   </a></li>
         </ul>
       </nav>
@@ -91,7 +91,7 @@ class Tution {
     <li><a href="#" onclick="renderphysic_10icse()">Physic</a>
     <li><a href="#" onclick="renderchemistory_10icse()">Chemistry</a>
     <li><a href="#" onclick="render_imp10_icse()">Important Question</a>
-    <li><a href="#" onclick="renderTest10_icse()">test</a>
+    <li><a href="#" onclick="render_imp10_icse()">test</a>
     <li><a href="./home.html">about me   </a></li>
     </ul>
     </nav>
