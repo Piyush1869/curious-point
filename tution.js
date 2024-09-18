@@ -482,7 +482,7 @@ function renderchemistory_10icse(){
         <h1>maths</h1>
         <p>Welcome to the biology page!</p>
         <p class="chapter_pdf_class9">
-            class 10 jac  chapter pdf link <br>
+            class 10 icse  chapter pdf link <br>
             </p>
              <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
                 <p class="chapter_pdf_class10"><ul>
@@ -491,15 +491,9 @@ function renderchemistory_10icse(){
                <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1HJCiIrTzxDfDDwlsO4W7XzCxvZXVY-HA/view?usp=drive_link"  > arthmatic progression (AP)</a> 
                <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1H_HvzehS5QugUPfley9vGBNoTA_Js3ZY/view?usp=drive_link"  > Matrix </a> 
               </ul></p>
-            <div class="loading" id="loading">Loading...</div>
-            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
-      
-            <div class="loading" id="loading">Loading...</div>
-            <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe>
-           
-        
         <div class="loading" id="loading">Loading...</div>
-        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="500"></iframe> 
+        <iframe name="pdf_frame" src="" frameborder="0" width="100%" height="">
+
 `
  }
   
