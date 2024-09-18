@@ -90,6 +90,7 @@ class Tution {
     <li><a href="#" onclick="rendermaths_10icse()">maths</a>
     <li><a href="#" onclick="renderphysic_10icse()">Physic</a>
     <li><a href="#" onclick="renderchemistory_10icse()">Chemistry</a>
+    <li><a href="#" onclick="render_imp10_icse()">Important Question</a>
     <li><a href="#" onclick="renderTest10_icse()">test</a>
     <li><a href="./home.html">about me   </a></li>
     </ul>
@@ -239,7 +240,7 @@ for (let i = 0; i < links.length; i++) {
     openPdf(this.href);
   });
 }
-
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~{9 test }~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function renderTest9(){
   document.getElementById("content").innerHTML =`
   <br><br>
@@ -286,7 +287,7 @@ function renderTest9(){
 
   `
 }
-// 10 jac 
+// ***********************************************{10 jac }************************************************************
  function renderphysic_10jac(){
   document.getElementById("content").innerHTML =`<div id="physic"></div>
         <!-- <div class="heading">Curious Point - Biology</div> -->
@@ -516,6 +517,54 @@ function renderchemistory_10icse(){
   </div>`
   
  }
+ function render_imp10_icse(){
+  document.getElementById("content").innerHTML =`
+    <nav>  
+    <ul>
+        <li><a href="#" onclick="renderBioImp9()">Bio</a></li>
+        <li><a href="#" onclick="renderPhysicImp9()">Physic</a></li>
+        <li><a href="#" onclick="renderChemistryImp9()">Chemistry</a></li>
+        <li><a href="#" onclick="renderMathsImp9()">test</a></li>
+        <li><a href="#" onclick="renderimportantImp9()">important point </a></li>
+        <li><a href="./home.html">about me   </a></li>
+        </ul>
+      </nav>
+       <div id="content_Imp">
+       <h1> ${name(username)} go and check all subject important  point </h1>
+
+       </div>
+  `
+ }
+ function rerenderMathsImp9(){
+  document.getElementById("content_Imp").innerHTML =`
+    <span class="star"><u>*click on chapter name text to open pdf if psd is not open on one click plz click again  *</u></span>
+    <p class="chapter_pdf_class10"><ul>
+   <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1I8aaRhARG0Tf2cx9gyaXHH6FQsQ6PnzS/view?usp=drive_link"  > Matrix  </a></li>
+ <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1I9I_U6sXRm4iTsWZG9f2LybwrRGD5nNz/view?usp=drive_link"  > Reflection </a> 
+   <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1IBbftHbQylqKfPc3z4yM6J0TIylUnVEm/view?usp=drive_link"  > Quaditic Equation</a> 
+   <li class="link"><a class="link_pdf" href="https://drive.google.com/file/d/1IEHSN0fLQ3Bbluuekmihvd98ck7pknr8/view?usp=drive_link"  >trignomatery imp</a>  
+  </ul></p>
+          
+  `
+ }
+
+ function rerenderPhysicImp9(){
+  document.getElementById("content_Imp").innerHTML =` <span class="star"><u>*click on chapter name text to open pdf if pdf</u>  </span>
+  
+  `
+
+ }
+ function rerenderChemistryImp9(){
+  document.getElementById("content_Imp").innerHTML =` <span class="star"><u>*click on chater name to open pdf </u ></span>
+
+  `
+ }
+ function rerenderBioImp9(){
+  document.getElementById("content_Imp").innerHTML =`
+  <span class="star"><u>*click on chapter name text to open pdf if pdf </u></span>
+  `
+ }
+
   // Create an instance of the Tution class
   let tution = new Tution();
   
