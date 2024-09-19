@@ -281,6 +281,16 @@ function renderTest9(){
     <td>87</td>
     <td>100</td>
   </tr>
+  <tr>
+    <td>Hygiene</td>
+    <td>63</td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>skeleton</td>
+    <td>81</td>
+    <td>100</td>
+  </tr>
 </table>
 </center>
     </p>
