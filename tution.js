@@ -559,7 +559,8 @@ function renderchemistory_10icse(){
 
  function rerenderPhysicImp10(){
   document.getElementById("content_Imp").innerHTML =` <span class="star"><u>*click on chapter name text to open pdf if pdf</u>  </span>
-  
+   
+   
   `
 
  }

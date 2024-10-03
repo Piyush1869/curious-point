@@ -7,21 +7,19 @@
     <link rel="stylesheet" href="./tution.css">
 </head>
 <body> 
-    <nav>  
-        <ul>
-            <li><a href="#" onclick="renderBioImp9()">Bio</a></li>
-            <li><a href="#" onclick="renderPhysicImp9()">Physic</a></li>
-            <li><a href="#" onclick="renderChemistryImp9()">Chemistry</a></li>
-            <li><a href="#" onclick="renderMathsImp9()">test</a></li>
-            <li><a href="#" onclick="renderimportantImp9()">important point </a></li>
-            <li><a href="./home.html">about me   </a></li>
-            </ul>
-          </nav>
-           <div id="content_Imp">
-           <h1> ${name(username)} go and check all subject important  point </h1>
-    
-           </div>
-      `
+    <span class="star"><u>*click on chapter name text to open pdf if pdf</u>  </span>
+    <pre>
+        <select id="chapter-options">
+            <option value="">Select a chapter</option>
+            <!-- Add more options here -->
+        </select>
+        <select id="study-material" onchange="renderStudyMaterial(this.value)">
+            <option value="">Select study material</option>
+            <option value="revision-notes">Revision Notes</option>
+            <option value="important-questions">Important Questions</option>
+        </select>
+        
+    </pre>
 <script src="./test_code.js"></script>
 </body>
 </html>
