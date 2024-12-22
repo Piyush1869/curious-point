@@ -141,13 +141,16 @@ nav a:hover {
     color: transparent;
     text-transform: capitalize;
 }
-p {
+p 
+{
     text-transform: capitalize;
-    color: #ffffff;
-    background-color: #03000093;
+    color: #000000;
+    /* background-color: #03000093; */
+    text-align:justify;
 }
 
-li {
+li 
+{
     list-style: inside;
     text-transform: capitalize;
 }
