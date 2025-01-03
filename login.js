@@ -16,6 +16,7 @@
 
 function login() {
     let usearname = document.getElementById("usearname").value;
+    console.log (usearname);
     console.log("Username:", usearname);
     // You can now use the username to authenticate the user
     // For example, you can check if the username exists in a database or an object
