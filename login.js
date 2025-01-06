@@ -1,5 +1,9 @@
 // login.js
-   document.getElementById("root").innerHTML=`<center>      <div id="form_cont">
+   document.getElementById("root").innerHTML=`<center>      <div id="form_cont" >
+      <div class="branding" >
+      <h1 class="heading"> Rishav tution classess </h1>
+      <span class="tagline">be curious , be inovative , be the best</span>
+      </div>
        <h2> login by usear id given by your teacher</h2> <br><br>
       <form id="myForm" action="" method="post" onsubmit="login(); return false;">
         <input id="usearname" type="text" value="usear_name" onfocus="if(this.value === 'usear_name'){this.value = '';}
